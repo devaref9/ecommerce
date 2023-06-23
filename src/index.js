@@ -5,11 +5,11 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./app/store";
-import { extendedApiSlice } from "./features/products/productsSlice";
+// import { extendedApiSlice } from "./features/products/productsSlice";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-store.dispatch(extendedApiSlice.endpoints.getProducts.initiate());
+// store.dispatch(extendedApiSlice.endpoints.getProducts.initiate());
 
 root.render(
   <React.StrictMode>
