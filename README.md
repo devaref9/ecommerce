@@ -1,5 +1,7 @@
 # **E-commerce** responsive website
 
+**Live** **Demo** https://beniix-ecommerce.vercel.app/
+
 ## :wrench: Technologies Used
 
 - React(CRA)
